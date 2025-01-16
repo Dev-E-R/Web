@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(69, 69, 67);
+}
+.sup{
+    padding-top: 20px;
+    background-color: rgb(130, 167, 190);
+    padding-bottom: 10px;
+
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec2{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+    list-style: none;
+}
+.sec2 a{
+    color: white;
+    text-decoration: none;
+
+}
+h1{
+    margin: 0;
+    color: aliceblue;
+}
+input, button{
+    border: 0;
+    background-color: white;
+    height: 28px;
+    border-radius: 0.5rem;
+}
+.sec1 input{
+    border-radius: 0.5rem;
+    height: 28px;
+    width: 400px;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0.5;
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    
+    position: fixed;
+    z-index: -1;
+}
+.productos div{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100px;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+
+}
+.imgp{
+    margin-top: 20px;
+    border-radius: 0.5rem;
+}
+.productos{
+    position: relative;
+    top: -60px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+
+}
+.productos2{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 0.5rem;
+}
+.productos2 div{
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+
+}
+footer{
+    background-color: rgb(83, 81, 79);
+    color: white;
+    padding: 50px;
+}
+.icon{
+    width: 10%;
+    object-fit: fill;
+}
+.titulo{
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    padding: 50px;
+    color: rgb(230, 233, 235);
+}
